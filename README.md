@@ -2,7 +2,9 @@
 
 This is a tiny PHP script that performs one simple task: it grabs tweets from your Lists and adds them to a Collection.
 
-Collections are nifty but rather hidden feature that let you make curated timelines of tweets you pick and choose. If you've used Reddit's save feature with custom categories before, it works very similarly to that. Twitter has not yet integrated Collections into their website or mobile clients yet (except for viewing them, where they call them "timelines" for some reason? 🤔), so you need to use tools like [Tweetdeck](https://tweetdeck.twitter.com) or [Charms](http://charm.benapps.net/) to create or manage Collections.
+Collections are nifty but rather hidden feature that enables you create curated timelines by picking and choosing tweets to add. If you've used Reddit's save feature with custom categories before, it works very similarly to that.
+
+Twitter has not yet integrated Collections into their website or mobile clients yet (except for viewing them, where they call them "timelines" for some reason? 🤔), so you need to use tools like [Tweetdeck](https://tweetdeck.twitter.com) or [Charms](http://charm.benapps.net/) to create or manage Collections.
 
 There's a number of use cases for this, but I created it to aggregate the art lists I've created into one easily skimmable collection. I enable the 'media_only' filter to only collect tweets with media. It works great for quickly browsing art posted throughout the day, retweeting and liking along the way.
 
@@ -27,7 +29,7 @@ The script's behavior is a configured using a simple JSON file, state.json.
 
 Register your script as [an application with Twitter](https://apps.twitter.com/app/new). You need to ensure these have write access so the script can add things to your collection (the default is read only, I believe.) If you change the permissions you may need to regenerate these for it to reflect the change.
 
-`username``
+``username``
 
 Your Twitter @username.
 
