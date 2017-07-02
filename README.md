@@ -2,7 +2,7 @@
 
 This is a tiny PHP script that performs one simple task: it grabs tweets from your Lists and adds them to a Collection.
 
-Collections are nifty but rather hidden feature that enables you create curated timelines by picking and choosing tweets to add. If you've used Reddit's save feature with custom categories before, it works very similarly to that.
+Collections are a nifty but rather hidden feature that enables you to create curated timelines by picking and choosing tweets to add. If you've used Reddit's save feature with custom categories before, it works very similarly to that.
 
 Twitter has not integrated Collections into their website or mobile clients yet (except for viewing them, where they call them "timelines" for some reason? 🤔), so you need to use tools like [Tweetdeck](https://tweetdeck.twitter.com) or [Charms](http://charm.benapps.net/) to create or manage your Collections.
 
