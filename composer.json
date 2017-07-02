@@ -1,0 +1,13 @@
+{
+    "name": "evan/twitterbot",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Evan Sims",
+            "email": "evansims@gmail.com"
+        }
+    ],
+    "require": {
+        "j7mbo/twitter-api-php": "^1.0"
+    }
+}
