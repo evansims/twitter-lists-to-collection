@@ -4,7 +4,7 @@ This is a tiny PHP script that performs one simple task: it grabs tweets from yo
 
 Collections are nifty but rather hidden feature that enables you create curated timelines by picking and choosing tweets to add. If you've used Reddit's save feature with custom categories before, it works very similarly to that.
 
-Twitter has not yet integrated Collections into their website or mobile clients yet (except for viewing them, where they call them "timelines" for some reason? 🤔), so you need to use tools like [Tweetdeck](https://tweetdeck.twitter.com) or [Charms](http://charm.benapps.net/) to create or manage Collections.
+Twitter has not integrated Collections into their website or mobile clients yet (except for viewing them, where they call them "timelines" for some reason? 🤔), so you need to use tools like [Tweetdeck](https://tweetdeck.twitter.com) or [Charms](http://charm.benapps.net/) to create or manage your Collections.
 
 There's a number of use cases for this, but I created it to aggregate the art lists I've created into one easily skimmable collection. I enable the 'media_only' filter to only collect tweets with media. It works great for quickly browsing art posted throughout the day, retweeting and liking along the way.
 
@@ -27,15 +27,15 @@ The script's behavior is a configured using a simple JSON file, state.json.
 ``consumer_key``  
 ``consumer_secret``  
 
-Register your script as [an application with Twitter](https://apps.twitter.com/app/new). You need to ensure these have write access so the script can add things to your collection (the default is read only, I believe.) If you change the permissions you may need to regenerate these for it to reflect the change.
+Register [an application with Twitter](https://apps.twitter.com/app/new) and copy these values from your applications' details. Be sure your keys have write access! The script won't be able to add to the Collection otherwise. You may need to regenerate your keys after you change permissions.
 
 ``username``
 
-Your Twitter @username.
+Your Twitter @username, sans the @.
 
 ``media_only``
 
-If you only want tweets with media attachments collected, set this to true.
+If set to true, the script will only collect tweets that have media attachments.
 
 ``lists``
 
