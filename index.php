@@ -85,9 +85,8 @@ function complete() {
   global $state, $originalStateMD5;
 
   $state = json_encode($state, JSON_PRETTY_PRINT);
-  $newStateMD5 = md5($state);
 
-  if ($newStateMD5 !== $originalStateMD5) {
+  if (md5($state) !== $originalStateMD5) {
     file_put_contents('state.json', $state);
   }
 
